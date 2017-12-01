@@ -1,1 +1,8 @@
+Executes contents of the file passed as argument in the current shell
 source ~/.bashrc
+
+# find 
+Recursively find all files in current and subfolders based on wildcard matching
+find . -name "foo*"
+Pipe into grep for regex / -iname, -regex, -iregex flags for find
+find . -print | grep -i foo
