@@ -6,3 +6,7 @@ Recursively find all files in current and subfolders based on wildcard matching
 find . -name "foo*"
 Pipe into grep for regex / -iname, -regex, -iregex flags for find
 find . -print | grep -i foo
+
+# Keyboard Shortcuts
+Convert upper to lower case
+Escape + L
