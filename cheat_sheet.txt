@@ -4,6 +4,10 @@ source ~/.bashrc
 Displays the alias command for the command
 which [command]
 
+Change default text editor
+export $EDITOR=[editor]
+less [text file] (now press v to edit it with your editor)
+
 # find 
 Recursively find all files in current and subfolders based on wildcard matching
 find . -name "foo*"
