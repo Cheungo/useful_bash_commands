@@ -11,6 +11,9 @@ less [text file] (now press v to edit it with your editor)
 Run command or interactive shell with special root directory
 chroot [directory]
 
+Redirect ardout to the null device (discards information written to it)
+>/dev/null
+
 # find 
 Recursively find all files in current and subfolders based on wildcard matching
 find . -name "foo*"
