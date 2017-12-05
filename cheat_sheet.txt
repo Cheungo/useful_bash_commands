@@ -8,6 +8,9 @@ Change default text editor
 export $EDITOR=[editor]
 less [text file] (now press v to edit it with your editor)
 
+Run command or interactive shell with special root directory
+chroot [directory]
+
 # find 
 Recursively find all files in current and subfolders based on wildcard matching
 find . -name "foo*"
