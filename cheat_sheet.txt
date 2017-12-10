@@ -1,6 +1,9 @@
 Executes contents of the file passed as argument in the current shell
 source ~/.bashrc
 
+Find UID (unique User Identifier)
+id -u [username]
+
 Displays the alias command for the command
 which [command]
 
